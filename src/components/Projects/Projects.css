@@ -1,0 +1,81 @@
+#projects {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #CCCCCC;
+}
+
+.projects-h1 {
+    margin-top: 120px;
+    font-size: 3rem;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.2rem;
+    display: flex; 
+    flex-direction: column; 
+    
+    justify-content: space-between; 
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease; 
+}
+
+.card:hover h2 {
+    color: #ff7f50;
+}
+
+.card-content {
+    flex-grow: 1; 
+}
+
+.card h2 {
+    font-size: 1.8rem;
+    margin-top: 0; 
+}
+
+.card p {
+    margin: 10px 0;
+}
+
+.card a {
+    color: #61dafb;
+}
+
+.github-logo {
+    width: 50px;
+    height: 50px;
+    margin-top: auto; 
+}
