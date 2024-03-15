@@ -54,7 +54,3 @@ body {
     border-radius: 10px;
     margin: 15px;
 }
-
-.skills-icons img:hover {
-    transform: scale(1.1); 
-}
