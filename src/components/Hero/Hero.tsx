@@ -13,7 +13,7 @@ const Hero = () => {
 
         <div className="hero-text"> 
           <p>Hello, I'm&nbsp;<span style={{ color: '#BFFF00' }}>Rudra Patel</span></p>
-          <p>I am passionate about web development and currently learning ReactJS with Typescript</p>
+          <p>I am passionate about web development and currently learning ReactJS and NextJS with Typescript</p>
         </div> 
         <div className='socials'>
           {SocialItems.map((item, index) => {
